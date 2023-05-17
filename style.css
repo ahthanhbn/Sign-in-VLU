@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+
+body{
+    font-family: 'Arial','Segoe UI';
+    background-color: #eee;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    padding: 150px 0 ;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    width: 305px;
+    height: 555px;
+    box-shadow: 0 0 14px rgb(0 0 0 / 10%);
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.logo{
+    padding-top: 30px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-img{
+    width: 150px;
+    height: 120px;
+
+}
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.School{
+    font-weight: 700;
+    color:#183C69 ;
+}
+
+.Cong{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #183C69;
+}
+
+.login-or{
+    height: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.login-or .or-line{
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    right: 40px;
+    background-color: #ccc;
+}
+
+.login-or .or{
+    width: 50px;
+    height: 20px;
+    color: #999;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 25px);
+    font-size: 13px;
+}
+
+.form-input{
+    height: 35px;
+    padding: 10px 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.form-password{
+    height: 35px;
+    padding: 10px 40px;
+    text-align: center;
+    justify-content: center; 
+    
+}
+
+
+.form-control,select{
+    
+    width: 225px;
+    height: 35px;
+    color: #fbfbfb;
+    background-color:#fbfbfb;
+    box-shadow: none;
+    border: 1px solid #d5d5d5; 
+    box-sizing: border-box;  
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+
+.form-control:focus{
+    outline: none;
+    background-color: #fff;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+
+.form-submit{
+    height: 35px;
+    padding: 10px 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.form-submit button{
+    width: 225px;
+    height: 32px;
+    outline: none;
+    border-radius: 3px ;
+    color: white;
+    background-color:#003768 ;
+    border: 1px solid #427fed;
+    box-sizing: border-box;
+    
+}
+
+.form-submit button:hover{
+    cursor: pointer ;
+    background-color: #427fed;
+    
+}
+
+.student{
+    height: 70px;
+    padding: 10px 40px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.student .icon{
+    width: 60px;
+    height: 50px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer ;
+    background-image: linear-gradient(to bottom,#eee 0,#fbfbfb 100%);
+}
+
+.student .user-student{
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    color: white;
+    background-color: #DE3C00;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+    box-sizing: border-box  ;
+    line-height: 38px  ; 
+    cursor: pointer ;           
+    
+}
+.teacher{
+    height: 70px;
+    padding: 10px 40px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.teacher .icon{
+    width: 60px;
+    height: 50px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer ;
+    background-image: linear-gradient(to bottom,#eee 0,#fbfbfb 100%);
+}
+
+.teacher .user-teacher{
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    color: white;
+    background-color: #DE3C00;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 2px;
+    line-height: 1.42857143;
+    text-align: center;
+    cursor: pointer ;
+    box-sizing: border-box;
+}
+
+
